@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7A137FF0-531A-4CA2-BC09-4E6E128E8B24}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{EF7A788B-1F4A-4BD5-BC62-9812FF292074}"
+	ProjectSection(SolutionItems) = preProject
+		readme.md = readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{7301B770-2811-41CF-925B-C6EC525FA408}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockApi", "src\StockApi\StockApi.csproj", "{ED84180A-8F2C-4188-A2A8-DF338E0A3A83}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ED84180A-8F2C-4188-A2A8-DF338E0A3A83} = {7A137FF0-531A-4CA2-BC09-4E6E128E8B24}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED84180A-8F2C-4188-A2A8-DF338E0A3A83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED84180A-8F2C-4188-A2A8-DF338E0A3A83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED84180A-8F2C-4188-A2A8-DF338E0A3A83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED84180A-8F2C-4188-A2A8-DF338E0A3A83}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
